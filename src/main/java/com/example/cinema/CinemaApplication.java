@@ -17,11 +17,11 @@ public class CinemaApplication {
 
         ViewerStatistics viewerStatistics = context.getBean(ViewerStatistics.class);
         List<Viewer> viewerList = new ArrayList<>();
-        viewerList.add(new Viewer("mike", 25, 7));
-        viewerList.add(new Viewer("sophy", 18, 10));
-        viewerList.add(new Viewer("den", 45, 2));
-        viewerList.add(new Viewer("gala", 29, 57));
-        viewerList.add(new Viewer("oleg", 38, 15));
+        viewerList.add(new Viewer("mike", 25));
+        viewerList.add(new Viewer("sophy", 18));
+        viewerList.add(new Viewer("den", 45));
+        viewerList.add(new Viewer("gala", 29));
+        viewerList.add(new Viewer("oleg", 38));
 
         System.out.println(viewerStatistics.averageAge(viewerList));
 
